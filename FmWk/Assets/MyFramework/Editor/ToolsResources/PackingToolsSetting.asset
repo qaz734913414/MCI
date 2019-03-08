@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: e7dff828c73171f499263df807e67c9e, type: 3}
+  m_Name: PackingToolsSetting
+  m_EditorClassIdentifier: 
+  BuildPlatform: 2
+  ResourceOutPath: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/StreamingAssets
+  ResourceCatalog:
+  - Name: AppModules
+    Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+  ModelBuildConfig:
+  - Name: LoginModule
+    Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule
+    RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+    ModelName: LoginModule
+    AssetBundleName: LoginModule
+    Layer: 0
+    NodelType: 1
+    UpdateMode: 0
+    Foldout: 0
+    IsMergeBuild: 1
+    IsShowBuildToogle: 1
+    ChildBuildItem:
+    - Name: Image
+      Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule\Image
+      RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+      ModelName: 
+      AssetBundleName: LoginModule
+      Layer: 1
+      NodelType: 2
+      UpdateMode: 0
+      Foldout: 0
+      IsMergeBuild: 1
+      IsShowBuildToogle: 0
+      ChildBuildItem:
+      - Name: btn_zhdl
+        Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule\Image\btn_zhdl.png
+        RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+        ModelName: 
+        AssetBundleName: LoginModule
+        Layer: 2
+        NodelType: 3
+        UpdateMode: 0
+        Foldout: 0
+        IsMergeBuild: 1
+        IsShowBuildToogle: 0
+        ChildBuildItem: []
+      - Name: zi_zhdl
+        Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule\Image\zi_zhdl.png
+        RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+        ModelName: 
+        AssetBundleName: LoginModule
+        Layer: 2
+        NodelType: 3
+        UpdateMode: 0
+        Foldout: 0
+        IsMergeBuild: 1
+        IsShowBuildToogle: 0
+        ChildBuildItem: []
+    - Name: Prefab
+      Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule\Prefab
+      RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+      ModelName: 
+      AssetBundleName: LoginModule
+      Layer: 1
+      NodelType: 2
+      UpdateMode: 0
+      Foldout: 0
+      IsMergeBuild: 1
+      IsShowBuildToogle: 0
+      ChildBuildItem:
+      - Name: TestViewComp
+        Path: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules\LoginModule\Prefab\TestViewComp.prefab
+        RootName: D:/liwei1dao/Unity3d/U3DFmWk/FmWk/Assets/AppModules
+        ModelName: 
+        AssetBundleName: LoginModule
+        Layer: 2
+        NodelType: 3
+        UpdateMode: 0
+        Foldout: 0
+        IsMergeBuild: 1
+        IsShowBuildToogle: 0
+        ChildBuildItem: []
+    IsSelection: 1
